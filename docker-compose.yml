@@ -36,6 +36,17 @@ services:
       MYSQL_USER: "example"
       MYSQL_PASSWORD: "example"
 
+  phpmyadmin:
+      image: phpmyadmin
+      restart: always
+      ports:
+        # host port : container port
+        - "8080:80"
+      environment:
+        MYSQL_HOST: "db"
+        MYSQL_USER: "example"
+        MYSQL_PASSWORD: "example"
+
 # named volumes:
 #volumes:
 #  db:
