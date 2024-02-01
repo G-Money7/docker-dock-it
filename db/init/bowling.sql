@@ -13,14 +13,14 @@ CREATE TABLE scores (
 
 
 INSERT INTO scores (player_name, score) VALUES
-                                            ('Alice', 200),
-                                            ('Bob', 150),
-                                            ('Charlie', 180),
-                                            ('Diana', 170),
-                                            ('Ethan', 190),
-                                            ('Fiona', 160),
-                                            ('George', 145),
-                                            ('Hannah', 155),
-                                            ('Ian', 175),
-                                            ('Jane', 165);
+ ('Gavin', 200),
+ ('Tyler', 150),
+ ('Julia', 180),
+ ('Matt', 170),
+ ('Josh', 190),
+ ('Emily', 160),
+ ('Tashina', 145),
+ ('Mariana', 155),
+ ('Archie', 175),
+
 

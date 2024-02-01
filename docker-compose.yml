@@ -43,9 +43,9 @@ services:
         # host port : container port
         - "8080:80"
       environment:
-        MYSQL_HOST: ${DB_HOST}
-        MYSQL_USER: ${DB_USER}
-        MYSQL_PASSWORD: ${DB_PASS}
+        PMA_HOST: ${DB_HOST}
+        PMA_USER: ${DB_USER}
+        PMA_PASSWORD: ${DB_PASS}
 
 # named volumes:
 #volumes:
