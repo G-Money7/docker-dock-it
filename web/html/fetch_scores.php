@@ -1,15 +1,15 @@
 <?php
-// fetch_scores.php
 
-$servername = "localhost";  // Change if your MySQL server is on a different host
-$username = "gschroeder7";  // Your MySQL username
-$password = "000552790";   // Your MySQL password
-$dbname = "bowling_db";     // Your database name
 
-// Create connection
+$servername = "localhost";
+$username = "gschroeder7";
+$password = "000552790";
+$dbname = "bowling_db";
+
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
