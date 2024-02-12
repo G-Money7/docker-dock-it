@@ -17,8 +17,8 @@
 !/wordpress/wp-content/uploads
 
 # Now exclude everything in plugins and themes …
-/wordpress/wp-content/plugins/*
-/wordpress/wp-content/themes/*
+/wordpress/wp-content/plugins/final-books
+/wordpress/wp-content/themes/minimalistblogger
 
 # … except our stuff.
 !/wordpress/wp-content/plugins/mailhog.php
