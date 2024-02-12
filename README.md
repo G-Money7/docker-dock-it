@@ -20,8 +20,8 @@ docker compose up -d
 docker exec -it docker-dock-it-author-site bash -c " 
 wp plugin delete hello akismet ; 
 wp plugin install health-check query-monitor loco-translate blockart-blocks everest-forms --activate ;  
-wp plugin activate mailhog ;
-wp theme activate zakra ;
+wp plugin activate final-books ;
+wp theme activate minimalistblogger ;
 
 ```
 
