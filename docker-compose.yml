@@ -41,7 +41,7 @@ services:
     image: phpmyadmin:latest
     restart: always
     ports:
-      - 8081:80
+      - 8083:80
     environment:
       - PMA_HOST=db
       - PMA_USER=${DB_USER}
@@ -64,6 +64,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: ${DB_USER}
+      WORDPRESS_TABLE_PREFIX: ${WP_TABLE_PREFIX}
       WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DB_NAME: ${DB_NAME}
 
