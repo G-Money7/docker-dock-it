@@ -17,12 +17,12 @@ docker compose up -d
 
 ## Install and activate plugins
 ```shell
-docker exec -it docker-dock-it-wpcli-1 bash -c " 
+docker exec -it docker-dock-it-author-site bash -c " 
 wp plugin delete hello akismet ; 
 wp plugin install health-check query-monitor loco-translate blockart-blocks everest-forms --activate ;  
 wp plugin activate mailhog ;
 wp theme activate zakra ;
-wp theme delete twentytwenty twentytwentyone ;"
+
 ```
 
 ### WordPress
